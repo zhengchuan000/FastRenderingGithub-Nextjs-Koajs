@@ -1,0 +1,38 @@
+{
+  "name": "next-github",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env DEBUG=server:*,-not_this NODE_ENV=development node server.js",
+    "build": "next build",
+    "statr": "cross-env NODE_ENV=production node server.js",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "dependencies": {
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.13.6",
+    "atob": "^2.1.2",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.11.0",
+    "cross-env": "^5.2.0",
+    "debug": "^4.1.1",
+    "github-markdown-css": "^3.0.1",
+    "http-proxy": "^1.17.0",
+    "ioredis": "^4.6.2",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "lru-cache": "^5.1.1",
+    "markdown-it": "^8.4.2",
+    "next": "^8.0.3",
+    "nprogress": "^0.2.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  }
+}

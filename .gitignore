@@ -1,0 +1,6 @@
+node_modules
+.next
+*.rdb
+.ecosystem.*
+config.js
+bundles

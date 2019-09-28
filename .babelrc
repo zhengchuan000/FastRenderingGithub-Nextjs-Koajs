@@ -1,0 +1,12 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd"
+        // "style": "css" 去掉css，因为会有bug，https://github.com/webpack-contrib/mini-css-extract-plugin/issues/250
+      }
+    ]
+  ]
+}
